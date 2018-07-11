@@ -1,0 +1,16 @@
+PODS:
+  - Polyline (4.2.0)
+
+DEPENDENCIES:
+  - Polyline (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Polyline
+
+SPEC CHECKSUMS:
+  Polyline: 3d69f75bb136357e27291d439d0436c6ebda57a4
+
+PODFILE CHECKSUM: facf86d29e141ea9768af9d99b0710dde3345609
+
+COCOAPODS: 1.5.3

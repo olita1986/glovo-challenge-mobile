@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082101710393C241319632ADDE918AF9 /* Polyline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47EA998D9CD71DC536A5B41699A6C9 /* Polyline-dummy.m */; };
+		0F1F8A391A05BEBB345C5DCE44BF1100 /* Pods-FindACity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DB5F92DFF8308A3D900AA261777FFA /* Pods-FindACity-dummy.m */; };
+		343ADCA3759BD036F270C968CEDC016F /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95519802BBBBDAA16E365188A4160CF9 /* Polyline.swift */; };
+		34BADEA9659B655AFD7F44F84B533C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		34CB04E787513E47D6A662E9DE3E3E44 /* Polyline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 286AECB4D06AEDAFF829124EA4355970 /* Polyline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62319EA7E681E6B1B5BB1A1E8DAB6407 /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 936948AECE3BC206CE6F3BBD4BD9DDC9 /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A907CF6AB53893A3BC78B6B49CDCBEB5 /* Pods-FindACity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC71BAEC2317AF83DF34182F96161D10 /* Pods-FindACity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE9C0467B71F26BFEB0CDEEA8DBBC060 /* Pods-FindACityTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50193DB5F01E93BC369BA518AAD44352 /* Pods-FindACityTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA4EE4380D7C2B9E1AA0A16E261E86E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E5108A4C0B7DF095939CA0209A5BDAFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FAAF96F1FEA5B427D64F272F9C87F654 /* Pods-FindACityTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F711161192702FB40DA4200CD24D8E0 /* Pods-FindACityTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		942AD55B1D90D5B6813AC5FA3695F1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8708A4A05A5F6B43C8850528E834010D;
+			remoteInfo = "Pods-FindACity";
+		};
+		B6CC7249C1888C46AB8E000CC130B4B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3532728EF80CD5FBC26F380A2007EDAD;
+			remoteInfo = Polyline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D8AA80D56BBAB223F107F3C6DA2DD2D /* Pods-FindACityTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindACityTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13AD536051B3BE1FAD177601DAAAB590 /* Pods-FindACityTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindACityTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F47EA998D9CD71DC536A5B41699A6C9 /* Polyline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polyline-dummy.m"; sourceTree = "<group>"; };
+		1F711161192702FB40DA4200CD24D8E0 /* Pods-FindACityTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindACityTests-dummy.m"; sourceTree = "<group>"; };
+		286AECB4D06AEDAFF829124EA4355970 /* Polyline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-umbrella.h"; sourceTree = "<group>"; };
+		2A77354814216F2C8838BD7E091B8A29 /* Pods_FindACity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindACity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DA715D76DBBF7EC1FDF5A07DB0618A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB5AB2653B93FB3E5AB0374BC56CA25 /* Pods-FindACity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FindACity.modulemap"; sourceTree = "<group>"; };
+		3DD431E774DDBC9AA6FBC0BF4C88A81A /* Polyline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-prefix.pch"; sourceTree = "<group>"; };
+		4BF20422B611CA75572FD112F0593512 /* Pods-FindACity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindACity.debug.xcconfig"; sourceTree = "<group>"; };
+		50193DB5F01E93BC369BA518AAD44352 /* Pods-FindACityTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FindACityTests-umbrella.h"; sourceTree = "<group>"; };
+		50E7CE9780F20B1E7449499AA7400FC3 /* Pods-FindACityTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FindACityTests.modulemap"; sourceTree = "<group>"; };
+		518600E48327CFCE5C5113CFE3A95429 /* Pods-FindACity-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindACity-acknowledgements.plist"; sourceTree = "<group>"; };
+		531649408BB4BCF31D463DF0BF8BD074 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53190DD51DB90CD14BC51CD029FECF02 /* Pods-FindACityTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindACityTests-resources.sh"; sourceTree = "<group>"; };
+		5402EFB9582826D565FE7886E81BA42C /* Pods-FindACity-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindACity-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63C29404402327AF6406D2E62ABDC023 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77685F0904EB090DE8BF068C79C23996 /* Pods-FindACityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindACityTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BA6178CFBCE36EA99AA1DE293FFAAA5 /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DB5F92DFF8308A3D900AA261777FFA /* Pods-FindACity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindACity-dummy.m"; sourceTree = "<group>"; };
+		936948AECE3BC206CE6F3BBD4BD9DDC9 /* Polyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Polyline.h; path = Polyline/Polyline.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95519802BBBBDAA16E365188A4160CF9 /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = Polyline/Polyline.swift; sourceTree = "<group>"; };
+		9ED0D2FDE3782A11DC7E4CC43E9FE90C /* Polyline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Polyline.modulemap; sourceTree = "<group>"; };
+		AF8B7941E808287B634984389A68486D /* Pods-FindACityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindACityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1F5DBB96D93096DE56BF1729FCD2501 /* Polyline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polyline.xcconfig; sourceTree = "<group>"; };
+		B36ADC727B6B1EE2870AAB932D34545F /* Pods-FindACity-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindACity-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1413C0AAF790A9A354DFEACF1D63071 /* Pods-FindACityTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindACityTests-frameworks.sh"; sourceTree = "<group>"; };
+		EB505385C150EED50285261BDAC35055 /* Pods_FindACityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindACityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F399F4E3D8B136AED091E7D82E01E404 /* Pods-FindACity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindACity.release.xcconfig"; sourceTree = "<group>"; };
+		FC71BAEC2317AF83DF34182F96161D10 /* Pods-FindACity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FindACity-umbrella.h"; sourceTree = "<group>"; };
+		FF2D06D72352CBF91A75E8648E95CD3A /* Pods-FindACity-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindACity-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		142A7ABFF55D4D8E1EB5D0B9ED7F2EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BADEA9659B655AFD7F44F84B533C28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE5CB83381D4B4A6129CBF8C132B373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4EE4380D7C2B9E1AA0A16E261E86E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCF98CCB0D45190F15C32B875F43DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5108A4C0B7DF095939CA0209A5BDAFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0726C56862350C15748BB4ED7EAF24C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A77354814216F2C8838BD7E091B8A29 /* Pods_FindACity.framework */,
+				EB505385C150EED50285261BDAC35055 /* Pods_FindACityTests.framework */,
+				7BA6178CFBCE36EA99AA1DE293FFAAA5 /* Polyline.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168ED878640F39BBAB4008563218E5B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D4BEA1B8828E172FB33CD250891C36F /* Polyline */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FA7F8282A897921379C900A54222B3D /* Pods-FindACity */ = {
+			isa = PBXGroup;
+			children = (
+				531649408BB4BCF31D463DF0BF8BD074 /* Info.plist */,
+				3CB5AB2653B93FB3E5AB0374BC56CA25 /* Pods-FindACity.modulemap */,
+				B36ADC727B6B1EE2870AAB932D34545F /* Pods-FindACity-acknowledgements.markdown */,
+				518600E48327CFCE5C5113CFE3A95429 /* Pods-FindACity-acknowledgements.plist */,
+				80DB5F92DFF8308A3D900AA261777FFA /* Pods-FindACity-dummy.m */,
+				FF2D06D72352CBF91A75E8648E95CD3A /* Pods-FindACity-frameworks.sh */,
+				5402EFB9582826D565FE7886E81BA42C /* Pods-FindACity-resources.sh */,
+				FC71BAEC2317AF83DF34182F96161D10 /* Pods-FindACity-umbrella.h */,
+				4BF20422B611CA75572FD112F0593512 /* Pods-FindACity.debug.xcconfig */,
+				F399F4E3D8B136AED091E7D82E01E404 /* Pods-FindACity.release.xcconfig */,
+			);
+			name = "Pods-FindACity";
+			path = "Target Support Files/Pods-FindACity";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				168ED878640F39BBAB4008563218E5B7 /* Pods */,
+				0726C56862350C15748BB4ED7EAF24C1 /* Products */,
+				8C2A3FC4675721F7AC5D2968028B9E59 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80AD98D467CEB4773D4478FD62AC4587 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30DA715D76DBBF7EC1FDF5A07DB0618A /* Info.plist */,
+				9ED0D2FDE3782A11DC7E4CC43E9FE90C /* Polyline.modulemap */,
+				B1F5DBB96D93096DE56BF1729FCD2501 /* Polyline.xcconfig */,
+				1F47EA998D9CD71DC536A5B41699A6C9 /* Polyline-dummy.m */,
+				3DD431E774DDBC9AA6FBC0BF4C88A81A /* Polyline-prefix.pch */,
+				286AECB4D06AEDAFF829124EA4355970 /* Polyline-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Polyline";
+			sourceTree = "<group>";
+		};
+		8C2A3FC4675721F7AC5D2968028B9E59 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FA7F8282A897921379C900A54222B3D /* Pods-FindACity */,
+				FE592B75307328A3DC2ED1F5A731ED66 /* Pods-FindACityTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8D4BEA1B8828E172FB33CD250891C36F /* Polyline */ = {
+			isa = PBXGroup;
+			children = (
+				936948AECE3BC206CE6F3BBD4BD9DDC9 /* Polyline.h */,
+				95519802BBBBDAA16E365188A4160CF9 /* Polyline.swift */,
+				80AD98D467CEB4773D4478FD62AC4587 /* Support Files */,
+			);
+			path = Polyline;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE592B75307328A3DC2ED1F5A731ED66 /* Pods-FindACityTests */ = {
+			isa = PBXGroup;
+			children = (
+				63C29404402327AF6406D2E62ABDC023 /* Info.plist */,
+				50E7CE9780F20B1E7449499AA7400FC3 /* Pods-FindACityTests.modulemap */,
+				0D8AA80D56BBAB223F107F3C6DA2DD2D /* Pods-FindACityTests-acknowledgements.markdown */,
+				13AD536051B3BE1FAD177601DAAAB590 /* Pods-FindACityTests-acknowledgements.plist */,
+				1F711161192702FB40DA4200CD24D8E0 /* Pods-FindACityTests-dummy.m */,
+				C1413C0AAF790A9A354DFEACF1D63071 /* Pods-FindACityTests-frameworks.sh */,
+				53190DD51DB90CD14BC51CD029FECF02 /* Pods-FindACityTests-resources.sh */,
+				50193DB5F01E93BC369BA518AAD44352 /* Pods-FindACityTests-umbrella.h */,
+				AF8B7941E808287B634984389A68486D /* Pods-FindACityTests.debug.xcconfig */,
+				77685F0904EB090DE8BF068C79C23996 /* Pods-FindACityTests.release.xcconfig */,
+			);
+			name = "Pods-FindACityTests";
+			path = "Target Support Files/Pods-FindACityTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C60E67BCB9D9CBF2F09B6EF9C020518 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CB04E787513E47D6A662E9DE3E3E44 /* Polyline-umbrella.h in Headers */,
+				62319EA7E681E6B1B5BB1A1E8DAB6407 /* Polyline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5284C3DE59B658F0A729A336B15BBDC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9C0467B71F26BFEB0CDEEA8DBBC060 /* Pods-FindACityTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7567345C5D29F5D30FC5277074B2375E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A907CF6AB53893A3BC78B6B49CDCBEB5 /* Pods-FindACity-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3532728EF80CD5FBC26F380A2007EDAD /* Polyline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A3D1D744B821495934873073CA1567 /* Build configuration list for PBXNativeTarget "Polyline" */;
+			buildPhases = (
+				47D3D7F203F1B57A337BDA3AB104EED9 /* Sources */,
+				2BE5CB83381D4B4A6129CBF8C132B373 /* Frameworks */,
+				3C60E67BCB9D9CBF2F09B6EF9C020518 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polyline;
+			productName = Polyline;
+			productReference = 7BA6178CFBCE36EA99AA1DE293FFAAA5 /* Polyline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4034BF0C07F1242E87E38F2BBA8301CA /* Pods-FindACityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DE547824D502C6A0F291A967AF6EB5 /* Build configuration list for PBXNativeTarget "Pods-FindACityTests" */;
+			buildPhases = (
+				C015078B45DCB4A6D0B31992DFA7ABDC /* Sources */,
+				142A7ABFF55D4D8E1EB5D0B9ED7F2EB1 /* Frameworks */,
+				5284C3DE59B658F0A729A336B15BBDC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C84DC4AB6A3DC6C77014E994FF5AA57 /* PBXTargetDependency */,
+			);
+			name = "Pods-FindACityTests";
+			productName = "Pods-FindACityTests";
+			productReference = EB505385C150EED50285261BDAC35055 /* Pods_FindACityTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8708A4A05A5F6B43C8850528E834010D /* Pods-FindACity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D7F024539D3BA4399D74A832FF5926 /* Build configuration list for PBXNativeTarget "Pods-FindACity" */;
+			buildPhases = (
+				CD68728CDBD83B05AB90074DBB2BF789 /* Sources */,
+				8BCF98CCB0D45190F15C32B875F43DEA /* Frameworks */,
+				7567345C5D29F5D30FC5277074B2375E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47FADB348A3ED8AE9868044D45E14503 /* PBXTargetDependency */,
+			);
+			name = "Pods-FindACity";
+			productName = "Pods-FindACity";
+			productReference = 2A77354814216F2C8838BD7E091B8A29 /* Pods_FindACity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0726C56862350C15748BB4ED7EAF24C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8708A4A05A5F6B43C8850528E834010D /* Pods-FindACity */,
+				4034BF0C07F1242E87E38F2BBA8301CA /* Pods-FindACityTests */,
+				3532728EF80CD5FBC26F380A2007EDAD /* Polyline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47D3D7F203F1B57A337BDA3AB104EED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082101710393C241319632ADDE918AF9 /* Polyline-dummy.m in Sources */,
+				343ADCA3759BD036F270C968CEDC016F /* Polyline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C015078B45DCB4A6D0B31992DFA7ABDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAF96F1FEA5B427D64F272F9C87F654 /* Pods-FindACityTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD68728CDBD83B05AB90074DBB2BF789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1F8A391A05BEBB345C5DCE44BF1100 /* Pods-FindACity-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47FADB348A3ED8AE9868044D45E14503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Polyline;
+			target = 3532728EF80CD5FBC26F380A2007EDAD /* Polyline */;
+			targetProxy = B6CC7249C1888C46AB8E000CC130B4B7 /* PBXContainerItemProxy */;
+		};
+		9C84DC4AB6A3DC6C77014E994FF5AA57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FindACity";
+			target = 8708A4A05A5F6B43C8850528E834010D /* Pods-FindACity */;
+			targetProxy = 942AD55B1D90D5B6813AC5FA3695F1E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BBF235CDFA48557D96D925E22BD4C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF20422B611CA75572FD112F0593512 /* Pods-FindACity.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindACity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindACity/Pods-FindACity.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2021DCA2B66F3F3A26A8AA7C7039FD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77685F0904EB090DE8BF068C79C23996 /* Pods-FindACityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindACityTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindACityTests/Pods-FindACityTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59A00AF5C6D1DCD04D12331D7F19CA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F5DBB96D93096DE56BF1729FCD2501 /* Polyline.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline/Polyline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyline/Polyline.modulemap";
+				PRODUCT_MODULE_NAME = Polyline;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2557816861DE9B96207FC78E1E2ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F399F4E3D8B136AED091E7D82E01E404 /* Pods-FindACity.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindACity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindACity/Pods-FindACity.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE6BB864FB202B78BB66ACCAACAA0513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF76A09C3B09DA1B0DB6FD5DB2C3A2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F63227267FA8EFFE3290305D360CA72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8B7941E808287B634984389A68486D /* Pods-FindACityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindACityTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindACityTests/Pods-FindACityTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC8DFA04A222FFB544983752279DDA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F5DBB96D93096DE56BF1729FCD2501 /* Polyline.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline/Polyline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polyline/Polyline.modulemap";
+				PRODUCT_MODULE_NAME = Polyline;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DE547824D502C6A0F291A967AF6EB5 /* Build configuration list for PBXNativeTarget "Pods-FindACityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63227267FA8EFFE3290305D360CA72E /* Debug */,
+				2021DCA2B66F3F3A26A8AA7C7039FD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D7F024539D3BA4399D74A832FF5926 /* Build configuration list for PBXNativeTarget "Pods-FindACity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BBF235CDFA48557D96D925E22BD4C76 /* Debug */,
+				C2557816861DE9B96207FC78E1E2ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF76A09C3B09DA1B0DB6FD5DB2C3A2A2 /* Debug */,
+				CE6BB864FB202B78BB66ACCAACAA0513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A3D1D744B821495934873073CA1567 /* Build configuration list for PBXNativeTarget "Polyline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8DFA04A222FFB544983752279DDA2E /* Debug */,
+				59A00AF5C6D1DCD04D12331D7F19CA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

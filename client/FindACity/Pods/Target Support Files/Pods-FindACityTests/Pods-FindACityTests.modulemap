@@ -1,0 +1,6 @@
+framework module Pods_FindACityTests {
+  umbrella header "Pods-FindACityTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
