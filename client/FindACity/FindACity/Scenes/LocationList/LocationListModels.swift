@@ -16,8 +16,6 @@ enum LocationList {
     // MARK: Use cases
 
     enum Location {
-        struct Request {
-        }
         struct Response {
             var locations: [(String, [City])]
         }

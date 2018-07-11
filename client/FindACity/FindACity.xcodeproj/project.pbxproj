@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		15A34EC205269101968201DC /* Pods_FindACity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694E9F4E583DD7E47F603C8C /* Pods_FindACity.framework */; };
 		8E1C3D7F20F5A67F004ABA87 /* LocationListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C3D7920F5A67F004ABA87 /* LocationListPresenter.swift */; };
-		8E1C3D8020F5A67F004ABA87 /* LocationListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C3D7A20F5A67F004ABA87 /* LocationListWorker.swift */; };
 		8E1C3D8120F5A67F004ABA87 /* LocationListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C3D7B20F5A67F004ABA87 /* LocationListRouter.swift */; };
 		8E1C3D8220F5A67F004ABA87 /* LocationListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C3D7C20F5A67F004ABA87 /* LocationListModels.swift */; };
 		8E1C3D8320F5A67F004ABA87 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C3D7D20F5A67F004ABA87 /* LocationListViewController.swift */; };
@@ -47,7 +46,6 @@
 		694E9F4E583DD7E47F603C8C /* Pods_FindACity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindACity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81481121491E0BB445AC0374 /* Pods-FindACityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindACityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindACityTests/Pods-FindACityTests.release.xcconfig"; sourceTree = "<group>"; };
 		8E1C3D7920F5A67F004ABA87 /* LocationListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListPresenter.swift; sourceTree = "<group>"; };
-		8E1C3D7A20F5A67F004ABA87 /* LocationListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListWorker.swift; sourceTree = "<group>"; };
 		8E1C3D7B20F5A67F004ABA87 /* LocationListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListRouter.swift; sourceTree = "<group>"; };
 		8E1C3D7C20F5A67F004ABA87 /* LocationListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListModels.swift; sourceTree = "<group>"; };
 		8E1C3D7D20F5A67F004ABA87 /* LocationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				8E1C3D7920F5A67F004ABA87 /* LocationListPresenter.swift */,
-				8E1C3D7A20F5A67F004ABA87 /* LocationListWorker.swift */,
 				8E1C3D7B20F5A67F004ABA87 /* LocationListRouter.swift */,
 				8E1C3D7C20F5A67F004ABA87 /* LocationListModels.swift */,
 				8E1C3D7D20F5A67F004ABA87 /* LocationListViewController.swift */,
@@ -394,7 +391,6 @@
 				8E2ED2E620F2C8C30021C90E /* MapViewController.swift in Sources */,
 				8E2ED2E520F2C8C30021C90E /* MapModels.swift in Sources */,
 				8E2ED2E420F2C8C30021C90E /* MapRouter.swift in Sources */,
-				8E1C3D8020F5A67F004ABA87 /* LocationListWorker.swift in Sources */,
 				8E2ED2D920F2BEFB0021C90E /* City.swift in Sources */,
 				8E2ED2DB20F2C1F40021C90E /* APILocation.swift in Sources */,
 				8E1C3D8320F5A67F004ABA87 /* LocationListViewController.swift in Sources */,

@@ -34,31 +34,11 @@ class LocationListRouter: NSObject, LocationListRoutingLogic, LocationListDataPa
         navigationToMap(source: viewController!)
     }
 
-    //func routeToSomewhere(segue: UIStoryboardSegue?)
-    //{
-    //  if let segue = segue {
-    //    let destinationVC = segue.destination as! SomewhereViewController
-    //    var destinationDS = destinationVC.router!.dataStore!
-    //    passDataToSomewhere(source: dataStore!, destination: &destinationDS)
-    //  } else {
-    //    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    //    let destinationVC = storyboard.instantiateViewController(withIdentifier: "SomewhereViewController") as! SomewhereViewController
-    //    var destinationDS = destinationVC.router!.dataStore!
-    //    passDataToSomewhere(source: dataStore!, destination: &destinationDS)
-    //    navigateToSomewhere(source: viewController!, destination: destinationVC)
-    //  }
-    //}
-
     // MARK: Navigation
     
     func navigationToMap(source: LocationListViewController) {
         source.navigationController?.popViewController(animated: true)
     }
-
-    //func navigateToSomewhere(source: LocationListViewController, destination: SomewhereViewController)
-    //{
-    //  source.show(destination, sender: nil)
-    //}
 
     // MARK: Passing data
     
@@ -66,9 +46,4 @@ class LocationListRouter: NSObject, LocationListRoutingLogic, LocationListDataPa
         destination.city = source.city
         destination.isLocationSelected = true
     }
-
-    //func passDataToSomewhere(source: LocationListDataStore, destination: inout SomewhereDataStore)
-    //{
-    //  destination.name = source.name
-    //}
 }
